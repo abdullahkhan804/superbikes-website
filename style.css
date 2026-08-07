@@ -1,0 +1,2174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: radial-gradient(
+    ellipse at center,
+    #ff3d3d 0%,
+    #d00000 25%,
+    #5c0000 55%,
+    #3b0000 80%,
+    #000000 100%);
+    
+}
+nav{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: anime 0.5s ease forwards;
+    position:fixed;
+    backdrop-filter: blur(10px);
+    transition: top .4s ease;
+    z-index: 1;
+}
+.fir{
+    height: 100%;
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20PX;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.fir_10{
+    background-position: center;
+    height: 55px;
+    width: 120px;
+    margin: 5px 60px 0px 0px;
+}
+.cal{
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.cal:hover{
+    background-color: red;
+    transition: all linear 0.1s;
+}
+.rid{
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.rid:hover{
+    background-color: red;
+    transition: all linear 0.1s;}
+.sec{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sub{
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.sub:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: all linear 0.2s;
+
+}
+.ibe{
+    background-color: red;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.ibe:hover{
+    background: linear-gradient(rgb(255, 125, 65),rgb(255, 36, 36));
+    filter: drop-shadow(0px 0px 15px rgb(167, 29, 29));
+    transition: all linear 0.1s;
+}
+@media only screen and (max-width:1100px){
+    .sub{
+        font-size: 15px;
+    }
+    .cal{
+        font-size: 15px;
+        padding: 8px 15px ;
+    }
+    .rid{
+        font-size: 15px;
+        padding: 8px 15px;
+    }
+    .fir{
+        gap: 10px;
+        background-size: 80px;
+    }
+    nav{
+        height: 10vh;
+    }
+}
+@media only screen and (max-width:959px){
+    .fir_10{
+        height: 40px;
+        width: 90px;
+    }
+    .sec{
+        gap: 20px;
+    }
+    .fir{
+        background-size: 70px;
+    }
+    nav{
+        height: 8vh;
+    }
+    .cal{
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+    .rid{
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+}
+@media only screen and (max-width:831px){
+    .fir_10{
+        height: 30px;
+        width: 70px;
+    }
+    .cal{
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    .rid{
+        font-size: 10px;
+        padding: 4px 6px;
+    }
+    nav{
+        height: 6vh;
+    }
+    .sub{
+        font-size: 11px;
+    }
+    .sec{
+        gap: 15px;
+    }
+    .ibe{
+        padding: 4px 8px;
+    }
+    .fir{
+        background-size: 50px;
+    }
+}
+@media only screen and (max-width:628px){
+    .fir_10{
+        margin: 5px 30px 0px 0px;
+        height: 25px;
+        width: 50px;
+    }
+    .cal{
+        font-size: 9px;
+        padding: 3px 4px;
+    }
+    .rid{
+        font-size: 9px;
+        padding: 3px 4px;
+    }
+    .fir{
+        background-position: 5px;
+        gap: 5px;
+    }
+}
+@media only screen and (max-width:555px){
+    .sub{
+        font-size: 6px;
+    }
+    .fir{
+        background-size: 34px;
+    }
+    .cal{
+        font-size: 7px;
+    }
+    .rid{
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width:500px){
+    .fir_10{
+        margin: 5px 10px 0px 0px;
+    }
+    .ibe{
+        font-size: 7px;
+    }
+    .sec{
+        gap: 8px;
+    }
+    .fir{
+        gap: 0px;
+    }
+}
+.first{
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(18, 18, 22, 0);
+    padding: 70px 0px 0px 0px;
+}
+.phli{
+    height: 90%;
+    width: 90%;
+    background:linear-gradient(rgba(0, 0, 0, 0.671),rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.774),rgb(0, 0, 0)), url(/images/three\ bikrs.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+}
+.phli_1{
+    padding: 40px;
+}
+.p_1{
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.spa_1{
+    background-color: red;
+    color: white;
+    padding: 2px 3px;
+}
+.spa_2{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.p_2{
+    font-size: 35px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.btn_1{
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.btn_1:hover{
+    background-color: rgb(128, 19, 19);
+}
+@media only screen and (max-width:1153px){
+    .p_1{
+        font-size: 13px;
+    }
+    .p_2{
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width:800px){
+    .p_1{
+        font-size: 13px;
+    }
+    .p_2{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .p_1{
+        font-size: 9px;
+    }
+    .p_2{
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    .btn_1{
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+}
+.second{
+    height: 40vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.dusri{
+    height: 43%;
+    width: 14.5%;
+    transition: all linear 0.2s;
+}
+.dusri:hover{
+    transform: scale(1.1);
+}
+.dusri_1:hover{
+    border-bottom: 3.5px solid red;
+    transition: all linear 0.1s;
+    box-shadow: 0px 0px 2px red;
+}
+.dusri_1{
+    background-image: url(/images/red\ div.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dusri_2{
+    background-image: url(/images/green\ div.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dusri_2:hover{
+    border-bottom: 3.5px solid rgb(28, 139, 0);
+    transition: all linear 0.1s;
+    box-shadow: 0px 0px 2px green;
+}
+.dusri_3{
+    background-image: url(/images/orange\ div.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dusri_3:hover{
+    border-bottom: 3.5px solid rgb(207, 83, 0);
+    transition: all linear 0.1s;
+    box-shadow: 0px 0px 2px rgb(207, 83, 0);
+}
+.dusri_4{
+    background-image: url(/images/yellow\ div.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dusri_4:hover{
+    border-bottom: 3.5px solid rgb(161, 137, 1);
+    transition: all linear 0.1s;
+    box-shadow: 0px 0px 2px rgb(156, 156, 5);
+}
+@media only screen and (max-width:791px){
+    .dusri{
+        width: 18%;
+    }
+}
+@media only screen and (max-width:647px){
+    .dusri{
+        height: 40%;
+    }
+    .second{
+        height: 25vh;
+        gap: 5px;
+    }
+}
+@media only screen and (max-width:451px){
+    .dusri{
+        height: 35%;
+    }
+    .second{
+        height: 20vh;
+        gap: 2.5px;
+    }
+}
+@media only screen and (max-width:1044px){
+    .dusri{
+        width: 15%;
+        height: 35%;
+    }
+    .second{
+        gap: 5.5px;
+    }
+}
+@media only screen and (max-width:767px){
+    .dusri{
+        width: 15%;
+        height: 25%;
+    }
+    .second{
+        gap: 3px;
+    }
+}
+.third{
+    height: 9vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 900px;
+}
+
+.lat{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: -1px;
+    color: white;
+}
+.vie{
+    font-size: 18px;
+    padding: 9px 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    border: 1px solid white;
+    transform: scale(1.1);
+}
+.vie:hover{
+    color: white;
+    background-color: rgb(71, 71, 71);
+    border: 0px;
+    padding: 10px 16px;
+    transform: scale(1.2);
+    transition: all linear 0.1s;
+}
+.forth{
+    height: 60vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.foty{
+    height: 98%;
+    width: 30%;
+    transition: all linear 0.2s;
+}
+.foty:hover{
+    transform: translatey(-10px)
+    scale(1.03);
+    box-shadow: 0px 12px 22px black;
+}
+.chothi{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+}
+.chothi_1{
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/200\ races.jpg);
+}
+.chothi_2{
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/oliveria.jpg);
+}
+.chothi_3{
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/we\ can\ be.jpg);
+}
+.forti{
+    height: 40%;
+    width: 100%;
+    background-image:linear-gradient(to right,rgb(27, 27, 27),rgb(26, 26, 26),rgb(26, 26, 26),rgb(26, 26, 26),rgb(24, 24, 24),rgb(27, 27, 27),rgb(24, 24, 24),rgb(27, 27, 27),rgba(0, 0, 0, 0.822),rgba(128, 128, 128, 0)),url(/images/hidie.png);
+    background-position: 470px;
+    background-size: 1500px;
+    border-bottom: 4px solid red;
+}
+.che{
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 215px;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0px 0px 0px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.pet{
+    color: white;
+    font-size: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 15px 0px 0px 25px;
+    line-height: 29px;
+}
+.trsme{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    background-color: red;
+    border: none;
+    margin: 10px 0px 0px 25px;
+    padding: 5px 8px;
+}
+.ici{
+     font-family: "Boldonse", system-ui;
+     font-weight: 400;
+     font-style: normal;
+     background-color: red;
+     color: beige;
+     margin: 0px 4px 5px 0px;
+     padding: 2px 4px ;
+}
+.mer{
+     font-family: "Boldonse", system-ui;
+     font-weight: 900;
+     font-style: normal;
+     background-color: rgba(39, 35, 35, 0.788);
+     color: beige;
+     margin: 0px 8px 5px -4px;
+     padding: 2px 4px;
+}
+@media only screen and (max-width:1299px){
+    .third{
+        gap: 800px;
+    }
+    .che{
+        word-spacing: 195px;
+    }
+    .pet{
+        font-size: 18px;
+    }
+    .vie{
+        font-size: 16px;
+    }
+    .lat{
+        font-size: 27px;
+    }
+    .foty{
+        height: 95%;
+        
+    }
+    .trsme{
+        font-size: 12px;
+    }
+    .chothi{
+        font-size:12px ;
+    }
+    .forth{
+        gap: 7px;
+    }
+}
+@media only screen and (max-width:1176px){
+    .foty{
+        height: 90%;
+        width: 31%;
+    }
+    .che{
+        word-spacing: 165px;
+    }
+    .third{
+        gap: 700px;
+    }
+}
+@media only screen and (max-width:1067px){
+    .foty{
+        height: 97%;
+    }
+    .forth{
+        height: 50vh;
+    }
+    .pet{
+        font-size: 16px;
+    }
+    .che{
+        font-size: 10px;
+    }
+    .trsme{
+        font-size: 10px;
+    }
+    .lat{
+        font-size: 24px;
+    }
+    .vie{
+        font-size: 13px;
+    }
+    .third{
+        gap: 670px;
+    }
+}
+@media only screen and (max-width:996px){
+    .foty{
+        width: 45%;
+        height: 48%;
+    }
+    .che{
+        font-size: 15px;
+        word-spacing: 230px;
+    }
+    .forth{
+        height: 130vh;
+    }
+    .pet{
+        font-size: 23px;
+    }
+    .trsme{
+        font-size: 14px;
+    }
+    .third{
+        gap: 580px;
+    }
+    .lat{
+        font-size: 25px;
+    }
+    .vie{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:913px){
+    .third{
+        gap: 500px;
+    }
+    .che{
+        word-spacing: 200px;
+    }
+}
+@media only screen and (max-width:833px){
+    .third{
+        gap: 420px;
+    }
+    .foty{
+        height: 45%;
+    }
+    .pet{
+        font-size: 20px;
+    }
+    .che{
+        word-spacing: 150px;
+    }
+}
+@media only screen and (max-width:750px){
+    .che{
+        word-spacing: 130px;
+    }
+    .third{
+        gap: 340px;
+    }
+}
+@media only screen and (max-width:675px){
+    .foty{
+        width: 63%;
+        height: 30%;
+    }
+    .forth{
+        height: 160vh;
+    }
+    .third{
+        gap: 300px;
+    }
+    .lat{
+        font-size: 20px;
+    }
+    .vie{
+        font-size: 10px;
+    }
+    .che{
+        word-spacing: 200px;
+    }
+    .trsme{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:563px){
+    .ibe{
+        font-size: 7px;
+    }
+    .third{
+        gap: 200px;
+    }
+    .che{
+        word-spacing: 190px;
+        font-size: 10px;
+    }
+    .pet{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:474px){
+    .foty{
+        width: 75%;
+    }
+    .third{
+        gap: 100px;
+    }
+}
+@media only screen and (max-width:410px){
+    .che{
+        word-spacing: 150px;
+    }
+    .pet{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .trsme{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:365px){
+    .lat{
+        font-size: 17px;
+    }
+    .vie{
+        font-size: 12px;
+        padding: 3px 5px;
+        margin: 5px 0px 0px 0px;
+    }
+    .pet{
+        font-size: 18px;
+    }
+    .trsme{
+        font-size: 12px;
+    }
+    .foty{
+        width: 90%;
+    }
+    .che{
+        font-size: 12px;
+    }
+}
+.fifth{
+    height: 120vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mr2{
+    height: 80%;
+    width: 92%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.774),black),url(/images/race\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+.mir{
+    font-size: 37px;
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px 0px 0px 50px;
+}
+.dakh{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin: 15px 0px 30px 50px;
+    padding: 11px 19px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+@media only screen and (max-width:1164px){
+    .mir{
+        font-size: 30px;
+    }
+    .dakh{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:903px){
+    .mir{
+        font-size: 20px;
+    }
+    .dakh{
+        font-size: 8px;
+        padding: 9px 16px;
+    }
+}
+@media only screen and (max-width:613px){
+    .mir{
+        font-size: 16px;
+    }
+    .dakh{
+        font-size: 7px;
+        padding: 7px 13px;
+    }
+}
+@media only screen and (max-width:474px){
+    .mir{
+        font-size: 14px;
+        margin: 0px 0px 0px 30px;
+    }
+    .dakh{
+        font-size: 5px;
+        padding: 5px 10px;
+        margin: 10px 0px 20px 30px;
+    }
+}
+.sixth{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: center;
+}
+.vipa{
+    height: 80%;
+    width: 45%;
+    background-image: url(/images/hidie.png);
+    background-position: center;
+    background-size:1080px ;
+}
+.thrill{
+    height: 80%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: aqua;
+    background-image: linear-gradient(to left,rgba(255, 0, 0, 0.308),rgba(0, 0, 0, 0.966),rgb(0, 0, 0),rgba(0, 0, 0, 0.979),rgba(0, 0, 0, 0.986),rgba(0, 0, 0, 0.952),rgb(0, 0, 0)),url(/images/hidie.png);
+    background-position: 900px;
+    background-size: 5000px;
+}
+.treeso{
+    color: white;
+    font-size: 25px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.joy{
+    color: rgb(212, 212, 212);
+    font-size: 17px;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+}
+.btn_10{
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 11px 15px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.p_10{
+    line-height: 50px;
+}
+@media only screen and (max-width:1257px){
+    .vipa{
+        background-size: 900px;
+    }
+}
+@media only screen and (max-width:1158px){
+    .treeso{
+        font-size: 20px;
+    }
+    .joy{
+        font-size: 15px;
+    }
+    .btn_10{
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .sixth{
+        height: 70vh;
+    }
+    .vipa{
+        background-size: 800px;
+    }
+}
+@media only screen and (max-width:964px){
+    .sixth{
+        height: 60vh;
+    }
+    .treeso{
+        font-size: 17px;
+    }
+    .joy{
+        font-size: 12px;
+    }
+    .vipa{
+        background-size: 700px;
+    }
+    .p_10{
+        line-height: 27px;
+    }
+    .btn_10{
+        font-size: 8px;
+        padding: 6px 9px;
+    }
+}
+@media only screen and (max-width:815px){
+    .sixth{
+        height: 50vh;
+    }
+    .vipa{
+        background-size: 570px;
+    }
+    .treeso{
+        font-size: 14px;
+    }
+    .joy{
+        font-size: 9px;
+    }
+    .btn_10{
+        padding: 4px 6px;
+        font-size: 6px;
+    }
+    .p_10{
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width:658px){
+    .sixth{
+        height: 40vh;
+    }
+    .vipa{
+        background-size: 450px;
+    }
+    .treeso{
+        font-size: 11px;
+    }
+    .joy{
+        font-size: 7px;
+    }
+    .btn_10{
+        font-size: 5px;
+        padding: 3px 4px;
+    }
+}
+@media only screen and (max-width:525px){
+    .sixth{
+        height: 30vh;
+    }
+    .vipa{
+        background-size:350px;
+    }
+    .treeso{
+        font-size: 9px;
+    }
+    .joy{
+        font-size: 6px;
+    }
+    .btn_10{
+        font-size: 4px;
+    }
+    .p_10{
+        line-height: 14px;
+    }
+}
+@media only screen and (max-width:418px){
+    .sixth{
+        height: 20vh;
+    }
+    .vipa{
+        background-size: 280px;
+    }
+    .treeso{
+        font-size: 7px;
+    }
+    .joy{
+        font-size: 5px;
+    }
+    .btn_10{
+        font-size: 3px;
+        padding: 2px 3px;
+    }
+    .p_10{
+        line-height: 12px;
+    }
+}
+.sathi_1{
+    background-image: url(/images/high\ race_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sathi_2{
+    background-image: url(/images/high\ last\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sathi_3{
+    background-image: url(/images/high\ bio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mrdo{
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.295),black),linear-gradient(to bottom,rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.473),rgba(255, 255, 255, 0),rgba(255, 0, 0, 0.096),rgba(0, 0, 0, 0.911),black),url(/images/silly\ img.jpg);
+    background-position: calc(-250px);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+.p_11{
+    margin: 0px 0px 10px 50px;
+}
+@media only screen and (max-width:563px){
+    .mrdo{
+        background-position: center;
+    }
+}
+@media only screen and (max-width:472px){
+    .p_11{
+        margin: 0px 0px 10px 30px;
+    }
+}
+.sethi_1{
+    background-image: url(/images/report_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sethi_2{
+    background-image: url(/images/report_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sethi_3{
+    background-image: url(/images/light_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width:1433px){
+    .est{
+        gap: 800px;
+    }
+}
+@media only screen and (max-width:1244px){
+    .est{
+        gap: 600px;
+    }
+}
+@media only screen and (max-width:999px){
+    .est{
+        gap: 400px;
+    }
+}
+@media only screen and (max-width:788px){
+    .est{
+        gap: 200px;
+    }
+}
+@media only screen and (max-width:519px){
+    .est{
+        gap: 50px;
+    }
+}
+.best{
+    padding: 70px 0px 0px 0px;
+}
+.sithi_1{
+    background-image: url(/images/group-selfie.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sithi_2{
+    background-image: url(/images/win-moment.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sithi_3{
+    background-image: url(/images/cheering-moment.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sthi_1{
+    background-image: url(/images/red\ race.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sthi_2{
+    background-image: url(/images/yellow\ race.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sthi_3{
+    background-image: url(/images/green\ race.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.pipa{
+    background-image: url(/images/audience.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.pip{
+    padding: 100px 0px 0px 0px;
+}
+.test{
+    padding: 0px 0px 0px 0px;
+}
+.seventh{
+    height: 70vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.meve{
+    height: 100%;
+    width: 22.5%;
+}
+.fai{
+    background-image: url(/images/player\ 11.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sai{
+    background-image: url(/images/player\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.thi{
+    background-image: url(/images/player\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.foi{
+    background-image: url(/images/player\ 22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.papa{
+    background-image: url(/images/a\ fan.jpg);
+    background-position: center;
+    background-size: 1000px;
+}
+@media only screen and (max-width:1350px){
+    .meve{
+        height: 80%;
+    }
+}
+@media only screen and (max-width:1028px){
+    .meve{
+        height: 80%;
+    }
+    .seventh{
+        height: 50vh;
+    }
+}
+@media only screen and (max-width:801px){
+    .meve{
+        height: 70%;
+    }
+    .seventh{
+        height: 45vh;
+    }
+}
+@media only screen and (max-width:609px){
+    .meve{
+        height: 70%;
+        width: 22%;
+    }
+    .seventh{
+        height: 35vh;
+        gap: 5px;
+    }
+}
+@media only screen and (max-width:508px){
+    .meve{
+        height: 70%;
+    }
+    .seventh{
+        height: 30vh;
+    }
+}
+@media only screen and (max-width:401px){
+    .seventh{
+        height: 25vh;
+    }
+    .meve{
+        height: 70%;
+    }
+}
+.taki_1{
+    background-image: url(/images/red\ bike.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.taki_2{
+    background-image: url(/images/blue\ bike.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.taki_3{
+    background-image: url(/images/many\ bikes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.eight{
+    height: 15vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+}
+.pure{
+    height: 100%;
+    width: 50%;
+    background-image: url(/images/widi\ wise.png);
+    background-position: center;
+    background-size: cover;
+}
+.btn_11{
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 25px;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    padding: 13px 16px;
+    margin: 0px 0px 0px 350px;
+}
+.eigh{
+    height: 100%;
+    width: 92%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.795)),linear-gradient(to right,white,black,black,rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.63)),url(/images/audience.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.dip{
+    padding: 30px 0px 0px 0px;
+}
+@media only screen and (max-width:1313px){
+    .btn_11{
+        margin: 0px 0px 0px 300px;
+    }
+}
+@media only screen and (max-width:1204px){
+    .btn_11{
+        font-size: 18px;
+        margin: 0px 0px 0px 280px;
+    }
+}
+@media only screen and (max-width:1023px){
+    .btn_11{
+        margin: 0px 0px 0px 240px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:898px){
+    .btn_11{
+        font-size: 14px;
+        margin: 0px 0px 0px 190px;
+    }
+    .eight{
+        height: 12vh;
+    }
+}
+@media only screen and (max-width:743px){
+    .btn_11{
+        font-size: 12px;
+        margin: 0px 0px 0px 140px;
+    }
+    .eight{
+        height: 10vh;
+    }
+}
+@media only screen and (max-width:599px){
+    .btn_11{
+        font-size: 8px;
+        margin: 0px 0px 0px 90px;
+        padding: 10px 13px;
+    }
+    .eight{
+        height: 8vh;
+    }
+}
+@media only screen and (max-width:405px){
+    .btn_11{
+        font-size: 7px;
+        margin: 0px 0px 0px 80px;
+        padding: 6px 9px;
+    }
+    .eight{
+        height: 6vh;
+    }
+}
+.ten{
+    height: 65vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.322);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tai{
+    height: 15%;
+    width: 100%;
+    background-color: rgba(18, 18, 22, 0.418);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.btn_12{
+    font-family: "Russo One", sans-serif;
+    border:none;
+    padding: 12px 16px;
+    margin: 0px 0px 0px 50px;
+}
+.btn_12:focus{
+    background-color: white;
+    color: black;
+}
+.btn_17{
+    background-color: white;
+}
+.btn_17:hover{
+    background-color: rgb(197, 197, 197);
+}
+.btn_13{
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    color: white;
+}
+.btn_13:hover{
+    background-color: rgba(73, 73, 73, 0.418);
+}
+.btn_14{
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    color: white;
+}
+.btn_14:hover{
+    background-color: rgba(73, 73, 73, 0.418)
+}
+.btn_15{
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    color: white;
+}
+.btn_15:hover{
+    background-color: rgba(73, 73, 73, 0.418)
+}
+.btn_16{
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    color: white;
+}
+.btn_16:hover{
+    background-color: rgba(73, 73, 73, 0.418)
+}
+@media only screen and (max-width:617px){
+    .btn_12{
+        padding: 7px 11px;
+    }
+}
+@media only screen and (max-width:561px){
+    .btn_12{
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:487px){
+    .btn_12{
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+}
+@media only screen and (max-width:415px){
+    .btn_12{
+        font-size: 8px;
+        padding: 4px 4px;
+    }
+}
+.pts{
+    height: 7%;
+    width: 93%;
+    background-color: rgba(138, 148, 148, 0.384);
+    display: flex;
+    align-items: center;
+}
+.hading{
+    text-transform: capitalize;
+    font-family: "Russo One", sans-serif;
+    color: white;
+}
+.hading_1{
+    margin: 0px 0px 0px 10px;
+}
+.hading_2{
+    margin: 0px 0px 0px 20px;
+}
+.hading_3{
+    margin: 0px 0px 0px 200px;
+}
+.hading_4{
+    margin: 0px 0px 0px 825px;
+}
+.about{
+    height: 15%;
+    width: 93%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-family: "Russo One", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.nmbr{
+    font-size: 40px;
+    margin: 0px 0px 0px 15px;
+    color: white;
+}
+.pic{
+    position: absolute;
+    top: 0.5px;
+    left: 40px;
+}
+.abot{
+    margin: 0px 0px 0px 130px;
+    font-size: 20px;
+    color: rgb(228, 228, 228);
+}
+.mor{
+    margin: 0px 0px 0px 40px;
+    text-transform: capitalize;
+    font-weight: 100;
+    color: rgb(141, 141, 141);
+}
+.score{
+    font-size: 40px;
+    margin: 0px 0px 0px 660px;
+    color: white;
+}
+.plyer{
+    height: 240px;
+}
+.lee_1{
+    margin: 0px 0px 0px 120px;
+}
+.lee_2{
+    margin: 0px 0px 0px 39px;
+}
+.lee_3{
+    margin: 0px 0px 0px 665px;
+}
+.mon_1{
+    margin: 0px 0px 0px 120px;
+}
+.mon_2{
+    margin: 0px 0px 0px 30px;
+}
+.mon_3{
+    margin: 0px 0px 0px 650px;
+}
+.low_1{
+    margin: 0px 0px 0px 120px;
+}
+.low_2{
+    margin: 0px 0px 0px 38px;
+}
+.low_3{
+    margin: 0px 0px 0px 580px;
+}
+.wes_1{
+    margin: 0px 0px 0px 125px;
+}
+.wes_2{
+    margin: 0px 0px 0px 39px;
+}
+.wes_3{
+    margin: 0px 0px 0px 625px;
+}
+@media only screen and (max-width:1348px){
+    .score{
+        margin:0px 0px 0px 500px;
+    }
+    .hading_4{
+        margin: 0px 0px 0px 660px;
+    }
+    .lee_3{
+        margin: 0px 0px 0px 510px;
+    }
+    .mon_3{
+        margin: 0px 0px 0px 490px;
+    }
+    .low_3{
+        margin: 0px 0px 0px 420px;
+    }
+    .wes_3{
+        margin: 0px 0px 0px 467px;
+    }
+}
+@media only screen and (max-width:1183px){
+    .score{
+        margin:0px 0px 0px 300px;
+        font-size: 35px;
+    }
+    .hading_4{
+        margin: 0px 0px 0px 460px;
+    }
+    .lee_3{
+        margin: 0px 0px 0px 310px;
+    }
+    .mon_3{
+        margin: 0px 0px 0px 290px;
+    }
+    .low_3{
+        margin: 0px 0px 0px 220px;
+    }
+    .wes_3{
+        margin: 0px 0px 0px 267px;
+    }
+}
+@media only screen and (max-width:964px){
+    .score{
+        margin:0px 0px 0px 100px;
+        font-size: 30px;
+    }
+    .hading_4{
+        margin: 0px 0px 0px 150px;
+    }
+    .lee_3{
+        margin: 0px 0px 0px 108px;
+    }
+    .mon_3{
+        margin: 0px 0px 0px 98px;
+    }
+    .low_3{
+        margin: 0px 0px 0px 53px;
+    }
+    .wes_3{
+        margin: 0px 0px 0px 80px;
+    }
+    .abot{
+        font-size: 15px;
+    }
+    .mor{
+        font-size: 10px;
+    }
+    .nmbr{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:625px){
+     .score{
+        margin:0px 0px 0px 65px;
+        font-size: 20px;
+    }
+    .hading_4{
+        margin: 0px 0px 0px 95px;
+    }
+    .abot{
+        margin: 0px 0px 0px 105px;
+    }
+    .lee_1{
+        margin: 0px 0px 0px 100px;
+    }
+    .lee_3{
+        margin: 0px 0px 0px 68px;
+    }
+    .mon_3{
+        margin: 0px 0px 0px 50px;
+    }
+    .low_3{
+        margin: 0px 0px 0px 25px;
+    }
+    .wes_3{
+        margin: 0px 0px 0px 51px;
+    }
+    .abot{
+        font-size: 10px;
+    }
+    .mor{
+        font-size: 7px;
+        margin: 0px 0px 0px 20px;
+    }
+    .nmbr{
+        font-size: 20px;
+    }
+    .hading{
+        font-size: 13px;
+    }
+    .hading_2{
+        margin: 0px 0px 0px 30px;
+    }
+    .hading_3{
+        margin: 0px 0px 0px 120px;
+    }
+}
+@media only screen and (max-width:441px){
+    .score{
+        font-size: 15px;
+        margin: 0px 0px 0px 45px;
+    }
+    .lee_3{
+        margin: 0px 0px 0px 48px;
+    }
+    .mon_3{
+        margin: 0px 0px 0px 30px;
+    }
+    .low_3{
+        margin: 0px 0px 0px 5px;
+    }
+    .wes_3{
+        margin: 0px 0px 0px 31px;
+    }
+    .hading_4{
+        margin: 0px 0px 0px 70px;
+    }
+}
+@media only screen and (max-width:407px){
+    .plyer{
+        height: 200px;
+    }
+    .abot{
+        margin: 0px 0px 0px 80px;
+    }
+    .mor{
+        margin: 0px 0px 0px 5px;
+    }
+    .hading_3{
+        margin: 0px 0px 0px 80px;
+    }
+    .lee_3{
+        margin: 0px 0px 0px 43px;
+    }
+}
+.nineth{
+    height: 45vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0px 0px 0px;
+}
+.nin{
+    height: 60%;
+    width: 90%;
+    background-color: rgba(39, 51, 51, 0.384);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sin{
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+    line-height: 0px;
+}
+.sig{
+    font-size: 35px;
+    color: white;
+}
+.acc{
+    font-size: 18px;
+    line-height: 80px;
+    color: rgb(207, 207, 207);
+}
+.btn_18{
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px 17px;
+    border: none;
+}
+.btn_18:hover{
+    background-color: rgb(190, 190, 190);
+}
+@media only screen and (max-width:798px){
+    .sig{
+        font-size: 25px;
+        line-height: 60px;
+    }
+    .acc{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .btn_18{
+        padding: 7px 14px;
+        margin: 10px 0px 0px 0px;
+    }
+}
+@media only screen and (max-width:387px){
+    .sig{
+        line-height: 60px;
+    }
+    .acc{
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .btn_18{
+        margin: 10px 0px 0px 0px ;
+        font-size: 9px;
+    }
+}
+.eleven{
+    height: 22vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.p_15{
+    text-transform: uppercase;
+    font-family: "Russo One", sans-serif;
+    color: white;
+}
+.mot{
+    height: 80px;
+}
+@media only screen and (max-width:462px){
+    .p_15{
+        font-size: 10px;
+    }
+    .mot{
+        height: 50px;
+    }
+    .eleven{
+        height: 15vh;
+    }
+}
+.twelve{
+    height:35vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: "Russo One", sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.pir{
+    height: 50px;
+}
+.bre{
+    height: 50px;
+}
+.sba{
+    height: 35px;
+}
+@media only screen and (max-width:476px){
+    .pir{
+        height: 40px;
+    }
+    .bre{
+        height: 40px;
+    }
+    .sba{
+        height: 25px;
+    }
+    .twelve{
+        font-size: 10px;
+    }
+}
+.thirteen{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tbl_1{
+    padding: 10px 40px 10px 3px;
+    color: rgb(182, 182, 182);
+}
+table{
+    font-family: "Russo One", sans-serif;
+    text-transform: capitalize;
+    color: white;
+    position: relative;
+}
+.issu{
+    position: absolute;
+}
+.siz{
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width:780px){
+    .siz{
+        font-size: 15px;
+    }
+    .tbl_1{
+        font-size: 11px;
+        padding: 10px 20px 10px 0px;
+    }
+}
+@media only screen and (max-width:481px){
+    .siz{
+        font-size: 13px;
+    }
+    .tbl_1{
+        font-size: 9px;
+        padding: 10px 10px 10px 0px;
+    }
+    .thirteen{
+        height: 30vh;
+    }
+}
+.fourteen{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding: 20px 0px 0px 0px;
+}
+.app{
+    height: 70%;
+    width: 35%;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-family: "Russo One", sans-serif;
+    text-transform: capitalize;
+    color: rgb(223, 223, 223);
+}
+.ican{
+    height: 66%;
+    width: 34.5%;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;
+    gap: 10px;
+    color: rgb(190, 190, 190);
+}
+.fa-youtube{
+    color: rgb(190, 190, 190);
+}
+.fa-youtube:hover{
+    color: red;
+    scale: 1.5;
+    transition: all linear 0.2s;
+    text-shadow: rgb(0, 0, 0) 3px 3px 4px;
+}
+.fa-facebook-f{
+    color: rgb(190, 190, 190);;
+}
+.fa-facebook-f:hover{
+    color: #3966FF;
+    scale: 1.5;
+    transition: all linear 0.2s;
+    text-shadow: rgb(115, 255, 243) 2px 2px 1px;
+}
+.fa-tiktok{
+    color: rgb(190, 190, 190);
+}
+.fa-tiktok:hover{
+    scale: 1.5;
+    transition: all linear 0.2s;
+    color: rgb(10, 9, 9);
+    text-shadow: rgb(167, 39, 39) 2px 2px 2px;
+}
+.fa-x-twitter{
+    color: rgb(190, 190, 190);
+}
+.fa-x-twitter:hover{
+    color: rgba(255, 255, 255, 0.384);
+    scale: 1.5;
+    transition: all linear 0.2s;
+    text-shadow: rgb(0, 0, 0) 4px 4px 3px;
+}
+.fa-instagram{
+    color: rgb(190, 190, 190);
+}
+.fa-instagram:hover{
+    color: rgba(255, 255, 255, 0.726);
+    scale: 1.5;
+    transition: all linear 0.2s;
+    text-shadow: rgb(109, 3, 65) 3px 3px 2px;
+}
+.lay{
+    height: 50px;
+    border-radius: 5px;
+}
+@media only screen and (max-width:1246px){
+    .fourteen{
+        gap: 100px;
+    }
+    .app{
+        font-size: 10px;
+    }
+    .lay{
+        height: 30px;
+    }
+    .ican{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:806px){
+    .app{
+        font-size: 7px;
+    }
+    .lay{
+        height: 20px;
+    }
+    .ican{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:553px){
+    .app{
+        height: 78%;
+        font-size: 13px;
+        width: 30%;
+    }
+    .lay{
+        height: 25px;
+    }
+    .fourteen{
+        gap: 50px;
+    }
+}
+@media only screen and (max-width:478px){
+    .fourteen{
+        gap: 10px;
+    }
+    .app{
+        width: 40%;
+    }
+    .ican{
+        font-size: 12px;
+    }
+}
+.fifteen{
+    height: 5vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.p_17{
+    font-family: "Russo One", sans-serif;
+}
+@media only screen and (max-width:860px){
+    .p_17{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:655px){
+    .p_17{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width:442px){
+    .p_17{
+        font-size: 9px;
+    }
+}
+.lest{
+    padding: 50px 0px 0px 0px;
+}
+.sixteen{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(18, 18, 22, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+.kets{
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 55px;
+    color: white;
+    background-color: rgba(18, 18, 22, 0);
+}
+.fut{
+    height: 70%;
+    width: 31%;
+    line-height: 30px;
+    position: relative;
+    transition: all linear 0.2s;
+}
+.fut:hover{
+    scale: 1.11;
+}
+.yo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(/images/estoril\ round.png);
+    background-position: center;
+    background-size: cover;
+}
+.dwa{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(/images/french\ round.png);
+    background-position: center;
+    background-size: cover;
+}
+.dray{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.897),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(/images/italian\ round.png);
+    background-position: center;
+    background-size: cover;
+}
+.nch{
+    height: 20px;
+}
+.btn_19{
+    font-family: "Russo One", sans-serif;
+    text-transform: capitalize;
+    padding: 2px 5px;
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.ace{
+    text-transform: capitalize;
+    font-family: "Russo One", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    position: absolute;
+    left: 13px;
+    top: 40px;
+    color: white; 
+}
+.fre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.fla{
+    position: absolute;
+    left: 13px;
+    top: 200px;
+    color: white;
+}
+.kats{
+    background-color: rgba(18, 18, 22, 0);
+}
+.mest{
+    padding: 50px 0px 0px 0px;
+}
+@media only screen and (max-width:1086px){
+    .fla{
+        top: 180px;
+    }
+    .sixteen{
+        height: 40vh;
+    }
+    .ace{
+        font-size: 15px;
+    }
+    .fla{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:865px){
+    .fut{
+        width: 40%;
+        height: 40%;
+    }
+    .sixteen{
+        height: 70vh;
+    }
+}
+@media only screen and (max-width:620px){
+    .sixteen{
+        height: 80vh;
+    }
+    .fut{
+        width: 55%;
+        height: 30%;
+    }
+    .fla{
+        top: 150px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:438px){
+    .sixteen{
+        height: 70vh;
+    }
+    .fut{
+        width: 70%;
+        height: 31%;
+    }
+    .fla{
+        font-size: 10px;
+        top: 140px;
+    }
+    .ace{
+        font-size: 12px;
+        top: 30px;
+    }
+    .btn_19{
+        font-size: 10px;
+    }
+    .nch{
+        height: 12px;
+    }
+    .kets{
+        margin: 0px 0px 0px 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
