@@ -242,7 +242,7 @@ nav{
 .phli{
     height: 90%;
     width: 90%;
-    background:linear-gradient(rgba(0, 0, 0, 0.671),rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.774),rgb(0, 0, 0)), url(/images/three\ bikrs.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.671),rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.774),rgb(0, 0, 0)), url(three\ bikrs.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -342,12 +342,12 @@ nav{
     box-shadow: 0px 0px 2px red;
 }
 .dusri_1{
-    background-image: url(/images/red\ div.jpg);
+    background-image: url(red\ div.jpg);
     background-size: cover;
     background-position: center;
 }
 .dusri_2{
-    background-image: url(/images/green\ div.jpg);
+    background-image: url(green\ div.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -357,7 +357,7 @@ nav{
     box-shadow: 0px 0px 2px green;
 }
 .dusri_3{
-    background-image: url(/images/orange\ div.jpg);
+    background-image: url(orange\ div.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -367,7 +367,7 @@ nav{
     box-shadow: 0px 0px 2px rgb(207, 83, 0);
 }
 .dusri_4{
-    background-image: url(/images/yellow\ div.jpg);
+    background-image: url(yellow\ div.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -486,22 +486,22 @@ nav{
 .chothi_1{
     background-position: center;
     background-size: cover;
-    background-image: url(/images/200\ races.jpg);
+    background-image: url(200\ races.jpg);
 }
 .chothi_2{
     background-position: center;
     background-size: cover;
-    background-image: url(/images/oliveria.jpg);
+    background-image: url(oliveria.jpg);
 }
 .chothi_3{
     background-position: center;
     background-size: cover;
-    background-image: url(/images/we\ can\ be.jpg);
+    background-image: url(we\ can\ be.jpg);
 }
 .forti{
     height: 40%;
     width: 100%;
-    background-image:linear-gradient(to right,rgb(27, 27, 27),rgb(26, 26, 26),rgb(26, 26, 26),rgb(26, 26, 26),rgb(24, 24, 24),rgb(27, 27, 27),rgb(24, 24, 24),rgb(27, 27, 27),rgba(0, 0, 0, 0.822),rgba(128, 128, 128, 0)),url(/images/hidie.png);
+    background-image:linear-gradient(to right,rgb(27, 27, 27),rgb(26, 26, 26),rgb(26, 26, 26),rgb(26, 26, 26),rgb(24, 24, 24),rgb(27, 27, 27),rgb(24, 24, 24),rgb(27, 27, 27),rgba(0, 0, 0, 0.822),rgba(128, 128, 128, 0)),url(hidie.png);
     background-position: 470px;
     background-size: 1500px;
     border-bottom: 4px solid red;
@@ -772,7 +772,7 @@ nav{
 .mr2{
     height: 80%;
     width: 92%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.774),black),url(/images/race\ 2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.774),black),url(race\ 2.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -846,7 +846,7 @@ nav{
 .vipa{
     height: 80%;
     width: 45%;
-    background-image: url(/images/hidie.png);
+    background-image: url(hidie.png);
     background-position: center;
     background-size:1080px ;
 }
@@ -858,7 +858,7 @@ nav{
     justify-content: center;
     align-items:center;
     background-color: aqua;
-    background-image: linear-gradient(to left,rgba(255, 0, 0, 0.308),rgba(0, 0, 0, 0.966),rgb(0, 0, 0),rgba(0, 0, 0, 0.979),rgba(0, 0, 0, 0.986),rgba(0, 0, 0, 0.952),rgb(0, 0, 0)),url(/images/hidie.png);
+    background-image: linear-gradient(to left,rgba(255, 0, 0, 0.308),rgba(0, 0, 0, 0.966),rgb(0, 0, 0),rgba(0, 0, 0, 0.979),rgba(0, 0, 0, 0.986),rgba(0, 0, 0, 0.952),rgb(0, 0, 0)),url(hidie.png);
     background-position: 900px;
     background-size: 5000px;
 }
@@ -1014,22 +1014,22 @@ nav{
     }
 }
 .sathi_1{
-    background-image: url(/images/high\ race_1.jpg);
+    background-image: url(high\ race_1.jpg);
     background-position: center;
     background-size: cover;
 }
 .sathi_2{
-    background-image: url(/images/high\ last\ \(1\).jpg);
+    background-image: url(high\ last\ \(1\).jpg);
     background-position: center;
     background-size: cover;
 }
 .sathi_3{
-    background-image: url(/images/high\ bio.jpg);
+    background-image: url(high\ bio.jpg);
     background-position: center;
     background-size: cover;
 }
 .mrdo{
-    background-image: linear-gradient(to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.295),black),linear-gradient(to bottom,rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.473),rgba(255, 255, 255, 0),rgba(255, 0, 0, 0.096),rgba(0, 0, 0, 0.911),black),url(/images/silly\ img.jpg);
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgba(0, 0, 0, 0.5),rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.295),black),linear-gradient(to bottom,rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.473),rgba(255, 255, 255, 0),rgba(255, 0, 0, 0.096),rgba(0, 0, 0, 0.911),black),url(silly\ img.jpg);
     background-position: calc(-250px);
     background-repeat: no-repeat;
     background-size: 1500px;
@@ -1048,17 +1048,17 @@ nav{
     }
 }
 .sethi_1{
-    background-image: url(/images/report_1.jpg);
+    background-image: url(report_1.jpg);
     background-position: center;
     background-size: cover;
 }
 .sethi_2{
-    background-image: url(/images/report_2.jpg);
+    background-image: url(report_2.jpg);
     background-position: center;
     background-size: cover;
 }
 .sethi_3{
-    background-image: url(/images/light_2.jpg);
+    background-image: url(light_2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -1091,37 +1091,37 @@ nav{
     padding: 70px 0px 0px 0px;
 }
 .sithi_1{
-    background-image: url(/images/group-selfie.jpg);
+    background-image: url(group-selfie.jpg);
     background-position: center;
     background-size: cover;
 }
 .sithi_2{
-    background-image: url(/images/win-moment.jpg);
+    background-image: url(win-moment.jpg);
     background-position: center;
     background-size: cover;
 }
 .sithi_3{
-    background-image: url(/images/cheering-moment.jpg);
+    background-image: url(cheering-moment.jpg);
     background-position: center;
     background-size: cover;
 }
 .sthi_1{
-    background-image: url(/images/red\ race.jpg);
+    background-image: url(red\ race.jpg);
     background-position: center;
     background-size: cover;
 }
 .sthi_2{
-    background-image: url(/images/yellow\ race.jpg);
+    background-image: url(yellow\ race.jpg);
     background-position: center;
     background-size: cover;
 }
 .sthi_3{
-    background-image: url(/images/green\ race.jpg);
+    background-image: url(green\ race.jpg);
     background-position: center;
     background-size: cover;
 }
 .pipa{
-    background-image: url(/images/audience.jpg);
+    background-image: url(audience.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -1146,27 +1146,27 @@ nav{
     width: 22.5%;
 }
 .fai{
-    background-image: url(/images/player\ 11.jpg);
+    background-image: url(player\ 11.jpg);
     background-position: center;
     background-size: cover;
 }
 .sai{
-    background-image: url(/images/player\ 7.jpg);
+    background-image: url(player\ 7.jpg);
     background-position: center;
     background-size: cover;
 }
 .thi{
-    background-image: url(/images/player\ 6.jpg);
+    background-image: url(player\ 6.jpg);
     background-position: center;
     background-size: cover;
 }
 .foi{
-    background-image: url(/images/player\ 22.jpg);
+    background-image: url(player\ 22.jpg);
     background-position: center;
     background-size: cover;
 }
 .papa{
-    background-image: url(/images/a\ fan.jpg);
+    background-image: url(a\ fan.jpg);
     background-position: center;
     background-size: 1000px;
 }
@@ -1218,17 +1218,17 @@ nav{
     }
 }
 .taki_1{
-    background-image: url(/images/red\ bike.jpg);
+    background-image: url(red\ bike.jpg);
     background-position: center;
     background-size: cover;
 }
 .taki_2{
-    background-image: url(/images/blue\ bike.jpg);
+    background-image: url(blue\ bike.jpg);
     background-position: center;
     background-size: cover;
 }
 .taki_3{
-    background-image: url(/images/many\ bikes.jpg);
+    background-image: url(many\ bikes.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -1243,7 +1243,7 @@ nav{
 .pure{
     height: 100%;
     width: 50%;
-    background-image: url(/images/widi\ wise.png);
+    background-image: url(widi\ wise.png);
     background-position: center;
     background-size: cover;
 }
@@ -1261,7 +1261,7 @@ nav{
 .eigh{
     height: 100%;
     width: 92%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.795)),linear-gradient(to right,white,black,black,rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.63)),url(/images/audience.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.795)),linear-gradient(to right,white,black,black,rgba(0, 0, 0, 0.904),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.205),rgba(0, 0, 0, 0.63)),url(audience.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -2041,17 +2041,17 @@ table{
     scale: 1.11;
 }
 .yo{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(/images/estoril\ round.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(estoril\ round.png);
     background-position: center;
     background-size: cover;
 }
 .dwa{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(/images/french\ round.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(french\ round.png);
     background-position: center;
     background-size: cover;
 }
 .dray{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.897),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(/images/italian\ round.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.897),rgba(128, 128, 128, 0.356),rgba(0, 0, 0, 0.89)),url(italian\ round.png);
     background-position: center;
     background-size: cover;
 }
