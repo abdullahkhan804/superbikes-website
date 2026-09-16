@@ -239,7 +239,7 @@ body{
 .thir{
     height: 90%;
     width: 85%;
-    background-image: url(/images/bundle\ imgs.png);
+    background-image: url(bundle\ imgs.png);
     background-size: cover;
     background-position: center;
 }
@@ -284,22 +284,22 @@ body{
     margin: 5px 0px 0px 0px;
 }
 .shi_1{
-    background-image: url(/images/shirt\ 1.png);
+    background-image: url(shirt\ 1.png);
     background-position: center;
     background-size: cover;
 }
 .shi_2{
-    background-image: url(/images/shirt\ 2.png);
+    background-image: url(shirt\ 2.png);
     background-position: center;
     background-size: cover;
 }
 .shi_3{
-    background-image: url(/images/shirt\ 3.png);
+    background-image: url(shirt\ 3.png);
     background-position: center;
     background-size: cover;
 }
 .shi_4{
-    background-image:url(/images/shirt\ 4.png);
+    background-image:url(shirt\ 4.png);
     background-position: center;
     background-size: cover;
 }
@@ -380,16 +380,16 @@ body{
     line-height: 150px;
 }
 .she_1{
-    background-image: url(/images/sbk\ 1.png);
+    background-image: url(sbk\ 1.png);
 }
 .she_2{
-    background-image: url(/images/sbk\ 2.png);
+    background-image: url(sbk\ 2.png);
 }
 .she_3{
-    background-image:url(/images/sbk\ 3.png) ;
+    background-image:url(sbk\ 3.png) ;
 }
 .she_4{
-    background-image: url(/images/sbk\ 4.png);
+    background-image: url(sbk\ 4.png);
 }
 @media only screen and (max-width:623px){
     .fifth{
@@ -435,32 +435,32 @@ body{
     width: 100%;
 }
 .six_1{
-    background-image: url(/images/shirt.jpg);
+    background-image: url(shirt.jpg);
     background-position: center;
     background-size: cover;
 }
 .six_2{
-    background-image: url(/images/cap.png);
+    background-image: url(cap.png);
     background-position: center;
     background-size: cover;
 }
 .six_3{
-    background-image: url(/images/jacket.png);
+    background-image: url(jacket.png);
     background-position: center;
     background-size: cover;
 }
 .six_4{
-    background-image: url(/images/cup.png);
+    background-image: url(cup.png);
     background-position: center;
     background-size: cover;
 }
 .six_5{
-    background-image: url(/images/glasses.png);
+    background-image: url(glasses.png);
     background-position: center;
     background-size: cover;
 }
 .six_6{
-    background-image: url(/images/book.png);
+    background-image: url(book.png);
     background-position: center;
     background-size: cover;
 }
@@ -550,22 +550,22 @@ body{
     width: 100%;
 }
 .sev_1{
-    background-image: url(/images/bmw.img.jpg);
+    background-image: url(bmw.img.jpg);
     background-position: center;
     background-size: cover;
 }
 .sev_2{
-    background-image: url(/images/bbk.img.jpg);
+    background-image: url(bbk.img.jpg);
     background-position: center;
     background-size: cover;
 }
 .sev_3{
-    background-image: url(/images/aruba.img.jpg);
+    background-image: url(aruba.img.jpg);
     background-position: center;
     background-size: cover;
 }
 .sev_4{
-    background-image: url(/images/kawasaki.img.jpg);
+    background-image: url(kawasaki.img.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -658,17 +658,17 @@ body{
     width: 100%;
 }
 .eig_1{
-    background-image: url(/images/bulegas\ img.jpg);
+    background-image: url(bulegas\ img.jpg);
     background-position: center;
     background-size: cover;
 }
 .eig_2{
-    background-image: url(/images/petrux\ img.jpg);
+    background-image: url(petrux\ img.jpg);
     background-position: center;
     background-size: cover;
 }
 .eig_3{
-    background-image: url(/images/lowes\ img.jpg);
+    background-image: url(lowes\ img.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -730,21 +730,21 @@ body{
 .nin_1{
     height: 60%;
     width: 100%;
-    background-image: url(/images/first\ man.jpg);
+    background-image: url(first\ man.jpg);
     background-position: center;
     background-size: cover;
 }
 .nin_2{
     height: 40%;
     width: 100%;
-    background-image: url(/images/second\ man.png);
+    background-image: url(second\ man.png);
     background-position: center;
     background-size: cover;
 }
 .nine_2{
     height: 100%;
     width: 55%;
-    background-image: url(/images/third\ mans.jpg);
+    background-image: url(third\ mans.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -810,22 +810,22 @@ body{
     width: 100%;
 }
 .ten_1{
-    background-image: url(/images/crowd.png);
+    background-image: url(crowd.png);
     background-position: center;
     background-size: cover;
 }
 .ten_2{
-    background-image: url(/images/elf\ marc.png);
+    background-image: url(elf\ marc.png);
     background-position: center;
     background-size: cover;
 }
 .ten_3{
-    background-image: url(/images/honda\ hrc.png);
+    background-image: url(honda\ hrc.png);
     background-position: center;
     background-size: cover;
 }
 .ten_4{
-    background-image: url(/images/aragon.png);
+    background-image: url(aragon.png);
     background-position: center;
     background-size: cover;
 }
@@ -971,7 +971,7 @@ body{
     border: none;
 }
 .lin_1{
-    background-image: url(/images/link\ 1.png);
+    background-image: url(link\ 1.png);
 }
 .limg{
     background-repeat: no-repeat;
