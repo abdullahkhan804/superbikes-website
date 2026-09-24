@@ -307,12 +307,14 @@ body{
     text-transform: uppercase;
     font-family: "Russo One", sans-serif;
     font-size: 15px;
+    color: white;
 }
 .spa_3{
     text-transform: capitalize;
     font-family: "Russo One", sans-serif;
     font-size: 19px;
     line-height: 40px;
+    color: white;
 }
 @media only screen and (max-width:1209px){
     .shir{
@@ -375,6 +377,7 @@ body{
     font-size: 40px;
     font-family: "Russo One", sans-serif;
     text-transform: capitalize;
+    color: white;
 }
 .p_3{
     line-height: 150px;
@@ -780,6 +783,7 @@ body{
     text-transform: capitalize;
     font-size: 35px;
     padding: 0px 0px 0px 130px;
+    color: white;
 }
 .tenth{
     height: 45vh;
@@ -835,6 +839,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     padding: 15px 0px 0px 10px;
+    color: white;
 }
 .spa_5{
     font-size: 15px;
